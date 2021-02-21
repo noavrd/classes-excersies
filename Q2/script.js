@@ -1,9 +1,7 @@
 class Animal {
-
     constructor(name) {
       this.name = name;
     }
-  
 }
   
 class Rabbit extends Animal {
@@ -13,5 +11,5 @@ class Rabbit extends Animal {
     }
 }
   
-  let rabbit = new Rabbit("White Rabbit"); 
-  alert(rabbit.name);
+let rabbit = new Rabbit("White Rabbit"); 
+alert(rabbit.name);
